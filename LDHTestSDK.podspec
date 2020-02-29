@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDHTestSDK'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'LDHTestSDK is a test sdk for LDH'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LDHTestSDK/Classes/**/*'
+  s.source_files = 'LDHTestSDK/Classes/*'
   s.vendored_frameworks = 'LDHTestSDK/Classes/*.framework'
   # s.resource_bundles = {
   #   'LDHTestSDK' => ['LDHTestSDK/Assets/*.png']

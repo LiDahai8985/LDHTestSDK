@@ -1,5 +1,5 @@
 PODS:
-  - LDHTestSDK (0.0.2)
+  - LDHTestSDK (0.0.3)
 
 DEPENDENCIES:
   - LDHTestSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LDHTestSDK: 62bccc80f66fed303b3605c459c451be595c548f
+  LDHTestSDK: f4317f278df8ed118f2580583592e961ad4e8c1a
 
 PODFILE CHECKSUM: a80f5c9a3cb0acdd965fede89ac4c3c550ac560d
 
