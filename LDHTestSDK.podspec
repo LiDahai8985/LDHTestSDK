@@ -31,13 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LDHTestSDK/Classes/**/*'
-  s.vendored_framework = 'LDHTestSDK/Classes/*.framework'
+  s.vendored_frameworks = 'LDHTestSDK/Classes/*.framework'
   # s.resource_bundles = {
   #   'LDHTestSDK' => ['LDHTestSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'WebKit', 'CoreGraphics', 'CoreTelephony', 'Security', 'SystemConfiguration',
+   s.frameworks = 'WebKit', 'CoreGraphics', 'CoreTelephony', 'Security', 'SystemConfiguration'
    s.libraries = 'z', 'sqlite3.0', 'c++'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -498,6 +498,11 @@
 				GCC_PREFIX_HEADER = "LDHTestSDK/LDHTestSDK-Prefix.pch";
 				INFOPLIST_FILE = "LDHTestSDK/LDHTestSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -514,6 +519,11 @@
 				GCC_PREFIX_HEADER = "LDHTestSDK/LDHTestSDK-Prefix.pch";
 				INFOPLIST_FILE = "LDHTestSDK/LDHTestSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
