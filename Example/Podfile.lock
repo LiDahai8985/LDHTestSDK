@@ -1,0 +1,16 @@
+PODS:
+  - LDHTestSDK (0.1.0)
+
+DEPENDENCIES:
+  - LDHTestSDK (from `../`)
+
+EXTERNAL SOURCES:
+  LDHTestSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDHTestSDK: 9b7d70230ebda06499baf5280554b6c9140bb1eb
+
+PODFILE CHECKSUM: a80f5c9a3cb0acdd965fede89ac4c3c550ac560d
+
+COCOAPODS: 1.8.4
