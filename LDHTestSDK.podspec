@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDHTestSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'LDHTestSDK is a test sdk for LDH'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'WebKit', 'CoreGraphics', 'CoreTelephony', 'Security', 'SystemConfiguration'
-   s.libraries = 'z', 'sqlite3.0', 'c++'
+   s.libraries = "z", "sqlite3.0", "c++"
   # s.dependency 'AFNetworking', '~> 2.3'
 end
