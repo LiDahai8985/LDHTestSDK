@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LDHTestSDK_Example' do
+  pod 'LDHTestSDK', :path => '../'
+
+  target 'LDHTestSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
