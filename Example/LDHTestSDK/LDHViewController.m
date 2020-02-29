@@ -7,6 +7,7 @@
 //
 
 #import "LDHViewController.h"
+#import <LDHTestSDK/LDHSDKManager.h>
 
 @interface LDHViewController ()
 

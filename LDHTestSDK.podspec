@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDHTestSDK'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of LDHTestSDK.'
+  s.version          = '0.0.2'
+  s.summary          = 'LDHTestSDK is a test sdk for LDH'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,12 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LDHTestSDK/Classes/**/*'
-  
+  s.vendored_framework = 'LDHTestSDK/Classes/*.framework'
   # s.resource_bundles = {
   #   'LDHTestSDK' => ['LDHTestSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'WebKit', 'CoreGraphics'
+   s.frameworks = 'WebKit', 'CoreGraphics', 'CoreTelephony', 'Security', 'SystemConfiguration',
+   s.libraries = 'z', 'sqlite3.0', 'c++'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
